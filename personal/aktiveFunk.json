@@ -1,0 +1,44 @@
+{
+  "aktiv": [
+    {
+      "name": "Konrad Haga",
+      "verv": "Økonomi-ansvarlig og Gjengsjef",
+      "from": "V2022"
+    },
+    {
+      "name": "Emil Gillingham Aukner",
+      "verv": "Gjengmedlem, DJ- og Sosialansvarlig, Arrangement og Personalansvarlig (Nattlos)",
+      "from": "V2021"
+    },
+    {
+      "name": "Ina Marie Nåmo Rønning",
+      "verv": "Gjengmedlem, Knausbooker, Storsalsbooker",
+      "from": "H2021"
+    },
+    {
+      "name": "Jakob Solheim",
+      "verv": "Gjengmedlem, PR og Presse (Trykkerimester)",
+      "from": "H2021"
+    },
+    {
+      "name": "Helene Steel",
+      "verv": "Gjengmedlem, Backstage- og Produksjonsansvarlig (Backprod)",
+      "from": "V2022"
+    },
+    {
+      "name": "Emil Skare Orgeret",
+      "verv": "Gjengmedlem, Knausbooker",
+      "from": "V2022"
+    },
+    {
+      "name": "Eric Aaslund",
+      "verv": "Gjengmedlem, DJ og Sosialansvarlig",
+      "from": "V2022"
+    },
+    {
+      "name": "Una Vedeld",
+      "verv": "Gjengmedlem, Økonomiansvarlig",
+      "from": "V2022"
+    }
+  ]
+}

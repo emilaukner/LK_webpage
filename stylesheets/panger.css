@@ -1,0 +1,47 @@
+header {
+  margin: 0 10% 0 10%;
+}
+
+h1 {
+  margin: 0 10% 0 10%;
+}
+
+#content {
+  margin: 2.5% 10% 5% 10%;
+}
+
+body {
+  background-color: rgb(42, 42, 42);
+  color: white;
+}
+
+/* Nav bar styling */
+
+ul {
+  list-style-type: none;
+  margin: 2.5% 10% 5% 10%;
+  padding: 0;
+  overflow: hidden;
+  background-color: #5f7161;
+}
+
+li {
+  float: left;
+  border-right: 1px solid #bbb;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+li:last-child {
+  border-right: none;
+}
