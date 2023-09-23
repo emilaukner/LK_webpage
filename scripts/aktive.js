@@ -20,27 +20,28 @@ function getAktive() {
         document.getElementById("container").innerHTML += markup;
         counter += 1;
       }
-    });
-
-  fetch("../personal/aktiveGjengis.json")
-    .then((res) => {
-      return res.json();
     })
-    .then((data) => {
-      var markup = `<h3>Aktive Gjengmedlemmer</h3>`;
-      document.getElementById("container").innerHTML += markup;
-      for (const aktiv of data.aktiv) {
-        var markup = `
-        <div id="aktiv${counter}">
-          <p>Navn: ${aktiv.name}</p>
-          <p>Fra: ${aktiv.from}</p>
-          <hr/>
-        </div>
-        `;
-        document.getElementById("container").innerHTML += markup;
-        counter += 1;
-      }
-    });
+    .then(
+      fetch("../personal/aktiveGjengis.json")
+        .then((res) => {
+          return res.json();
+        })
+        .then((data) => {
+          var markup = `<h3>Aktive Gjengmedlemmer</h3>`;
+          document.getElementById("container").innerHTML += markup;
+          for (const aktiv of data.aktiv) {
+            var markup = `
+          <div id="aktiv${counter}">
+            <p>Navn: ${aktiv.name}</p>
+            <p>Fra: ${aktiv.from}</p>
+            <hr/>
+          </div>
+          `;
+            document.getElementById("container").innerHTML += markup;
+            counter += 1;
+          }
+        })
+    );
 }
 
 getAktive();
