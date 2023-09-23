@@ -1,15 +1,19 @@
 header {
-  height: 25px;
-  background-color: rgb(42, 42, 42);
-  color: white;
+  margin: 0 10% 0 10%;
 }
 
 h1 {
   margin: 0 10% 0 10%;
 }
 
+body {
+  background-color: rgb(42, 42, 42);
+  color: white;
+}
+
 #content {
-  margin: 2.5% 10% 5% 10%;
+  padding: 20px;
+  margin: 0 10% 5% 10%;
   display: grid;
   grid-template-rows: auto;
 }
@@ -17,7 +21,7 @@ h1 {
 
 ul {
   list-style-type: none;
-  margin: 2.5% 10% 5% 10%;
+  margin: 2.5% 10% 0 10%;
   padding: 0;
   overflow: hidden;
   background-color: #5f7161;
