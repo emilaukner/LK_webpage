@@ -39,6 +39,7 @@ function startCountdown() {
 
         startBtn.style.display = 'none'; // Hide the start button
         stopBtn.style.display = 'block'; // Show the stop button
+        stopBtn.disasbled = false; // Enable the stop button
     }
 }
 
@@ -59,3 +60,6 @@ function playSound(soundPath) {
     audio.play();
 }
 
+//event listeners for buttons
+document.getElementById('startBtn').addEventListener('click', startCountdown);
+document.getElementById('stopBtn').addEventListener('click', stopCountdown);
