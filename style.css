@@ -53,3 +53,14 @@ li a:hover {
 li:last-child {
   border-right: none;
 }
+
+footer{
+  position: fixed;
+  margin: 0 10% 0 10%;
+  bottom: 2px;
+}
+
+footer p{
+  display: inline;
+  margin: 0 10px;
+}
