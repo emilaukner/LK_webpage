@@ -6,6 +6,11 @@ h1 {
   margin: 0 10% 0 10%;
 }
 
+h2 {
+  text-align: center;
+  font-size: 50px;
+}
+
 body {
   background-color: rgb(42, 42, 42);
   color: white;
@@ -47,3 +52,39 @@ li a:hover {
 li:last-child {
   border-right: none;
 }
+
+/* Style for the start button */
+#startBtn {
+  display: block;
+  margin: 20px auto; /* Center the button */
+  padding: 20px; /* Adjusted padding for better centering */
+  font-size: 16px;
+  width: 150px; /* Set a fixed width */
+  height: 150px; /* Set a fixed height */
+  border-radius: 50%;
+  background-color: #4CAF50; /* Green background color */
+  color: #fff; /* White text color */
+  cursor: pointer;
+}
+
+/* Style for the stop button */
+#stopBtn {
+  display: none; /* Initially hidden */
+  margin: 20px auto; /* Center the button */
+  padding: 20px; /* Adjusted padding for better centering */
+  font-size: 16px;
+  width: 150px; /* Set a fixed width */
+  height: 150px; /* Set a fixed height */
+  border-radius: 50%;
+  background-color: #FF0000; /* Red background color */
+  color: #fff; /* White text color */
+  cursor: pointer;
+}
+
+#countdown {
+  font-size: 50px;
+  text-align: center;
+  margin: 0 10% 0 10%;
+  padding: 0;
+}
+
