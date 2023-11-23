@@ -18,15 +18,20 @@ function startCountdown() {
             // Check if the countdown has reached zero
             if (seconds === 0) {
                 clearInterval(countdownInterval); // Stop the countdown
-                playSound('../dj-airhorn-sound-39405.mp3'); // Trigger the last sound
+                playSound('../sounds/dj-airhorn-sound-39405.mp3'); // Trigger the last sound
                 seconds = 20 * 60; // Reset the timer
                 countdownElement.innerHTML = "20:00"; // Reset the displayed co
                 startBtn.style.display = 'block'; // Show the start button
                 stopBtn.style.display = 'none'; // Hide the stop button
-            } else if (seconds === 15 * 60 || seconds === 10 * 60 || seconds === 5 * 60) {
-                playSound('../mixkit-funny-clown-horn-sounds-2886.wav'); // Trigger the same sound at 15:00, 10:00, and 5:00
-            } else if (seconds === 10) {
-                playSound('../mixkit-male-deep-voice-countdown-925.wav'); // Trigger the sound at 11 seconds
+            } else if (seconds === 15 * 60) {
+                playSound('../sounds/15min.wav'); // Trigger the same sound at 15:00, 10:00, and 5:00
+            } else if (seconds === 10 * 60) {
+                playSound('../sounds/10min.wav'); // Trigger the same sound at 15:00, 10:00, and 5:00
+            } else if (seconds === 5 * 60) {
+                playSound('../sounds/5min.wav'); // Trigger the same sound at 15:00, 10:00, and 5:00
+            }
+            else if (seconds === 10) {
+                playSound('../sounds/mixkit-male-deep-voice-countdown-925.wav'); // Trigger the sound at 11 seconds
             }
 
             seconds--; // Decrease the countdown
