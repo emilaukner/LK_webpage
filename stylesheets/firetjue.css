@@ -45,6 +45,10 @@ li a {
   text-decoration: none;
 }
 
+.active {
+  background-color: #715f6f; /* Style for the active page */
+}
+
 li a:hover {
   background-color: #111;
 }

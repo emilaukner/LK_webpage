@@ -47,6 +47,10 @@ li:last-child {
   border-right: none;
 }
 
+.active {
+  background-color: #715f6f; /* Style for the active page */
+}
+
 footer{
   position: fixed;
   margin: 0 10% 0 10%;
